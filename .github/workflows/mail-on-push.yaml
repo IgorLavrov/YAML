@@ -13,7 +13,7 @@ jobs:
             username: ${{secrets.MAIL_USERNAME}}
             password: ${{secrets.MAIL_PASSWORD}}
             subject: NIGERIAN PRINCE WISHES YOU A MERRY WEDDING
-            body: Email test from ${{github.repository}}. which is owned by${{github.event.pusher.name}}.
+            body: igor Lavrov ${{github.repository}}. which is owned by${{github.event.pusher.name}}.
             to: jyri.vaitmaa@tthk.ee
             from: Github Actions
   Explore-GitHub-Actions:
@@ -29,5 +29,5 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-          
+
       - run: echo "🍏 This job's status is ${{ job.status }}."
