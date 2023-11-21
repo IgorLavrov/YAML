@@ -14,7 +14,7 @@ jobs:
   password: ${{secrets.MAIL_PASSWORD}}
   subject: NIGERIAN PRINCE WISHES YOU A MERRY WEALTH
   body: Email test from ${{github.respository}}. which is owned by  $ ${{github.event.pusher.name}}.
-  to: Jyri.valimaa@tthk.ee
+  to: jyri.vaitmaa@tthk.ee
   from: Github Actions
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
